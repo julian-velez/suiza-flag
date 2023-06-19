@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:290px;
+}
+
+
+.flag {
+    width: 300px;
+    height: 200px;
+    background-color: red;
+    position: relative;
+    border: 1px solid black;
+  }
+  
+  .cross {
+    position: absolute;
+    background-color: white;
+  }
+  
+  .vertical {
+    width: 20px;
+    height: 100px;
+    left: 140px;
+    top: 50px;
+  }
+  
+  .horizontal {
+    width: 100px;
+    height: 20px;
+    left: 100px;
+    top: 90px;
+  }
+  
